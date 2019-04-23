@@ -1,0 +1,30 @@
+* { 
+    box-sizing: border-box; 
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+.form-control label {
+    width: 100%;
+    display: block;
+}
+.form-control input[type="text"], 
+.form-control input[type="password"], 
+.form-control input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+}
+
+
+    display: inline-block;
+    width:
+}
