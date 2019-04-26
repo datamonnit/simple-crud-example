@@ -1,5 +1,29 @@
 * { 
     box-sizing: border-box; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.main-nav a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(200,200,200)
 }
 
 .container {

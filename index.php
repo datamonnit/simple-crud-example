@@ -1,6 +1,8 @@
-<?php include "layout/head.inc.php" ?>
-<?php include "layout/nav.inc.php" ?>    
+<?php 
+include "layout/layout_functions.php";
+echo_header("Message System Index");
+?>   
 
-<h2>Content</h2>    
+<h2>Message System</h2>    
 
-<?php include "layout/footer.inc.php" ?>
+<?php echo_footer(); ?>
