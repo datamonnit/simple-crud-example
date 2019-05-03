@@ -9,7 +9,7 @@ if (isset($_POST['register_button']))
 
     $data = [
         'username' => $_POST['username'],
-        'passwd' => $_POST['password'],
+        'passwd' => password_hash($_POST['password'], PASSWORD_DEFAULT),
         'email' => $_POST['email']
     ];
 
@@ -47,7 +47,7 @@ if (isset($_POST['register_button']))
         </div>
         <div class="form-control">
             <label for="password">Email</label>
-            <input type="password" name="email">
+            <input type="text" name="email">
         </div>
         <div class="form-control">
             <input type="submit" name="register_button" value="Register">
